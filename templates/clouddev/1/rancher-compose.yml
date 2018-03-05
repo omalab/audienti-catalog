@@ -1,0 +1,43 @@
+.catalog:
+  name: "Clouddev"
+  version: "0.0.2"
+  description: "Bootable development box for development and troubleshooting."
+  uuid: "29e89d42-61cb-478a-9f83-c9822159e9a3"
+  minimum_rancher_version: v1.1.0
+  questions:
+    - variable: DEVELOPER_NAME
+      label: "What is the developer name?"
+      default: "William Flanagan"
+      type: string
+    - variable: DEVELOPER_EMAIL
+      label: "What is the developer's email?"
+      default: "youremail@yourhost.com"
+      type: string
+    - variable: DEVELOPER_TOKEN
+      label: "What is your developer token from github?"
+      default: "Sksdhkghskdghlwh23kwkeghwekgh"
+      type: string
+    - variable: DOCKER_USER
+      label: "What is your docker username?"
+      default: "wflanagan"
+      type: string
+    - variable: DOCKER_PASS
+      label: "What is your docker password?"
+      default: "passw0rd"
+      type: string
+    - variable: DOCKER_CLOUD9_HOSTNAME
+      label: "What is your hostname?"
+      default: "localhost"
+      type: string
+    - variable: DOCKER_CLOUD9_USERNAME
+      label: "What is the username you will use to login?"
+      default: "developer"
+      type: string
+    - variable: DOCKER_CLOUD9_PASSWORD
+      label: "What is the password you will use to login?"
+      default: "Passw0rd"
+      type: string
+    - variable: DOCKER_LETSENCRYPT_EMAIL
+      label: "What is the email you will use for encryption?"
+      default: "support@audienti.com"
+      type: string

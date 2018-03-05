@@ -1,7 +1,7 @@
-name: Devbox
+name: Clouddev
 description: |
   Bootable development box for development and troubleshooting.
-version: v0
+version: v1
 category: Applications
 maintainer: OMAlab, Inc. Authors <hello@audienti.com>
 license: Copyright 2018 Omalab,Inc. All Rights Reserved.
