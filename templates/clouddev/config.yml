@@ -1,0 +1,8 @@
+name: Devbox
+description: |
+  Bootable development box for development and troubleshooting.
+version: v0
+category: Applications
+maintainer: OMAlab, Inc. Authors <hello@audienti.com>
+license: Copyright 2018 Omalab,Inc. All Rights Reserved.
+projectURL: https://github.com/omalab/audienti-catalog
