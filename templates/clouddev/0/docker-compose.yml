@@ -16,7 +16,6 @@ box:
     - OMA_ENV=development
     - RACK_ENV=development
     - RAILS_ENV=development
-    - RACK_ENV=development
     - DEVELOPER_NAME=${DEVELOPER_NAME}
     - DEVELOPER_TOKEN=${DEVELOPER_TOKEN}
     - DEVELOPER_EMAIL=${DEVELOPER_EMAIL}
